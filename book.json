@@ -1,0 +1,69 @@
+{
+    "title": "Jack-Roc 的笔记",
+    "author": "Jack-Roc",
+    "description": "记录学习的过程",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "structure": {
+        "readme": "README.md"
+    },
+    "links": {
+        "sidebar": {
+            "我的博客": "http://jack-roc.github.io"
+        }
+    },
+    "plugins": [
+        "-sharing",
+        "splitter",
+        "expandable-chapters-small",
+        "donate",
+        "sharing-plus",
+        "back-to-top-button",
+        "emphasize",
+        "accordion",
+        "custom-favicon",
+        "popup",
+        "pageview-count",
+        "change_girls"
+    ],
+    "pluginsConfig": {
+        "change_girls" : {
+            "time" : 60,
+            "urls" : [
+                "https://img-blog.csdnimg.cn/20191222194658116.png", "https://img-blog.csdnimg.cn/20191222191717931.png","https://img-blog.csdnimg.cn/20200110180924582.png","https://img-blog.csdnimg.cn/20200110181029441.png","https://img-blog.csdnimg.cn/20200110185319645.png","https://img-blog.csdnimg.cn/20200110185403485.png","https://img-blog.csdnimg.cn/20200110185438489.png","https://img-blog.csdnimg.cn/2020011018552441.png"
+            ]
+        },
+        "favicon": "imgs/favicon.ico",
+        "donate": {
+            "alipay": "./imgs/alipay.jpg",
+            "wechat": "./imgs/wechat.jpg",	
+            "title": "",
+            "button": "赞赏",
+            "alipayText": "支付宝打赏 ",
+            "wechatText": "微信打赏 "
+        },
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "google": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": false,
+            "qzone": false,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": false,
+            "whatsapp": false,
+            "all": [
+                "google", "facebook", "weibo", "twitter",
+                "qq", "qzone", "linkedin", "pocket"
+            ]
+        }
+    }
+}
